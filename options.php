@@ -4,7 +4,7 @@ use \Bitrix\Main\HttpApplication;
 use \Bitrix\Main\Loader;
 use \Bitrix\Main\Config\Option;
 use \Bitrix\Main\SiteTemplateTable;
-
+// Настройки модуля
 Loc::loadMessages(__FILE__);
 
 $request = HttpApplication::getInstance()->getContext()->getRequest();

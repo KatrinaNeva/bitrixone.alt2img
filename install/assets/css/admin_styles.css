@@ -1,0 +1,35 @@
+.btn-wrapper {
+	text-align: center;
+}
+.addalt-btn {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 38px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #333333;
+    padding: 9px 34px;
+    background: transparent;
+    border: 2px solid #009376;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+.addalt-btn:hover {
+    background-color: #009376;
+    border-color: #009376;
+    color: #FFF;
+    transition: all 0.7s;
+}
+
+.info {
+    background: #F7F8FA;
+    color: #999999;
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #EAEAEC;
+    text-align: center;
+}

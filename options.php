@@ -5,6 +5,7 @@ use \Bitrix\Main\Loader;
 use \Bitrix\Main\Config\Option;
 use \Bitrix\Main\SiteTemplateTable;
 // Настройки модуля
+// Настройки модуля очень важны
 Loc::loadMessages(__FILE__);
 
 $request = HttpApplication::getInstance()->getContext()->getRequest();

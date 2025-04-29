@@ -8,6 +8,7 @@ use Bitrix\Iblock;
 class Main{
 
     public function createPropsAtIb(){
+
         if(defined("ADMIN_SECTION") && ADMIN_SECTION == true){
 		
             $module_id = pathinfo(dirname(__DIR__))["basename"];

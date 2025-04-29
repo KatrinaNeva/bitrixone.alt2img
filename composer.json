@@ -1,0 +1,15 @@
+{
+  "name": "bitrixone/alt2img",
+  "description": "Модуль автоматического проставления alts изображениям в тексте элементов",
+  "type": "bitrix-module",
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bitrixone\\Alt2Img\\": "lib/",
+      "Bitrixone\\Alt2Img\\Settings\\": "lib/settings/"
+    }
+  }
+}
